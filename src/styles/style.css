@@ -1,0 +1,20 @@
+h1,
+h5,
+input,
+p {
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.625rem;
+    color: hsl(0, 0%, 59%);
+    margin-bottom: 0.5rem;
+}
+
+input {
+    color: hsl(0, 0%, 59%);
+    font-size: 1rem;
+    font-weight: 500;
+}
