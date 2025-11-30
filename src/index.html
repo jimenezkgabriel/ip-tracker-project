@@ -34,10 +34,11 @@
     <div class="row">
       <div class="col-md-6 col-sm-12 my-0 mx-auto">
         <div class="input-group input-group-lg shadow rounded-4">
-          <input type="text" class="form-control rounded-start-4" placeholder="Search for any IP address or domain"
-            aria-label="IP Address" style="height: 4rem; color: hsl(0, 0%, 59%)">
-          <button class="btn btn-dark rounded-end-4" type="button" id="button" style="width: 4rem; background-color: black;"><img src="./images/icon-arrow.svg"
-              alt="Search"></button>
+          <input type="text" id="ipInput" class="form-control rounded-start-4"
+            placeholder="Search for any IP address or domain" aria-label="IP Address"
+            style="height: 4rem; color: hsl(0, 0%, 59%)">
+          <button class="btn btn-dark rounded-end-4" type="button" id="button"
+            style="width: 4rem; background-color: black;"><img src="./images/icon-arrow.svg" alt="Search"></button>
         </div>
       </div>
     </div>
@@ -46,19 +47,19 @@
         <div class="row gx-5 text-center text-md-start">
           <div class="col-md-3 col-sm-12 mb-4 mb-md-0">
             <p>IP ADDRESS</p>
-            <h5>192.212.174.101</h5>
+            <h5 id="ipAddress">192.212.174.101</h5>
           </div>
           <div class="col-md-3 col-sm-12 mb-4 mb-md-0 border border-top-0 border-bottom-0">
             <p>LOCATION</p>
-            <h5>Brooklyn, NY 10001</h5>
+            <h5 id="location">Brooklyn, NY 10001</h5>
           </div>
           <div class="col-md-3 col-sm-12 mb-4 mb-md-0 border border-top-0 border-bottom-0 border-start-0">
             <p>TIMEZONE</p>
-            <h5>UTC -05:00</h5>
+            <h5 id="timezone">UTC -05:00</h5>
           </div>
           <div class="col-md-3 col-sm-12 mb-4 mb-md-0">
             <p>ISP</p>
-            <h5>SpaceX Starlink</h5>
+            <h5 id="isp">SpaceX Starlink</h5>
           </div>
         </div>
       </div>
