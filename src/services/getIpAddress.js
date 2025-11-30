@@ -10,3 +10,5 @@ const getIpAddress = async (ip = '', domain = '') => {
         return data;
     }
 }
+
+export default getIpAddress;
