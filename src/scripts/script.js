@@ -15,7 +15,6 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 let marker = L.marker([0, 0]).addTo(map);
 
-
 const searchIpAddress = async (ipOrDomain) => {
     try {
         let domain = ``;
