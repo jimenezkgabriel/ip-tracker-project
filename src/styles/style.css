@@ -18,3 +18,19 @@ input {
     font-size: 1rem;
     font-weight: 500;
 }
+
+body {
+    background-image: url('../images/pattern-bg-desktop.png');
+}
+
+#map {
+    z-index: -1;
+    position: relative;
+    top: -7rem;
+}
+
+@media (max-width: 768px) {
+    #map {
+        top: -18rem;
+    }
+}
