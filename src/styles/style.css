@@ -1,3 +1,4 @@
+/* Setting text to be the right kind of font */
 h1,
 h5,
 input,
@@ -5,6 +6,7 @@ p {
     font-family: 'Rubik', sans-serif;
 }
 
+/* The little labels on the results bar */
 p {
     font-size: 0.875rem;
     font-weight: 500;
@@ -21,16 +23,19 @@ input[type="text"]::placeholder {
     color: hsl(0, 0%, 59%);
 }
 
+/* Background of the whole thing is a little bit off but it works well enough */
 body {
     background-image: url('../images/pattern-bg-desktop.png');
 }
 
+/* Trying to get the map container to be underneath the results bar */
 #map {
     z-index: -1;
     position: relative;
     top: -7rem;
 }
 
+/* Adjusting the map container to be even more underneath on mobile view */
 @media (max-width: 768px) {
     #map {
         top: -18rem;
