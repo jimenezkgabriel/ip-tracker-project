@@ -27,10 +27,12 @@ A website that allows you to search the location of an IP address on an integrat
 ## Features
 Interactable map showing the location of the IP address entered
 
-## Trello Planning
+## Trello Planning & Figma
 * https://trello.com/b/bkakZpER/gabes-ip-tracker-project
+* https://www.figma.com/design/bTtEB1tKnSzgisaLTJYJby/IP-Address-Tracker-Wireframe?m=auto&t=NTC55wUMrVQcUzgN-1
 
 ## <a name="design"></a>Design
+* Figma for the wireframing
 * Bootstrap CSS for its excellent grid system
 * Bootstrap CSS for input form CSS
 * Frontend mentor provided background image and other nice things
