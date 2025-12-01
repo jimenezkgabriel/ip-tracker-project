@@ -47,8 +47,14 @@ const displayResults = (model) => {
 }
 
 searchButton.addEventListener('click', async () => {
-    const model = await searchIpAddress(ipInput.value);
-    displayResults(model);
+    if (ipInput.value.trim() === '') {
+        let randomIp = `${Math.floor(Math.random() * 256)}.${Math.floor(Math.random() * 256)}.${Math.floor(Math.random() * 256)}.${Math.floor(Math.random() * 256)}`;
+        const model = await searchIpAddress(randomIp);
+        displayResults(model);
+    } else {
+        const model = await searchIpAddress(ipInput.value);
+        displayResults(model);
+    }
 })
 
 window.onload = async () => {
