@@ -30,7 +30,6 @@ body {
 
 /* Trying to get the map container to be underneath the results bar */
 #map {
-    z-index: -1;
     position: relative;
     top: -7rem;
 }
