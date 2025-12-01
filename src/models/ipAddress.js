@@ -1,3 +1,5 @@
+// A class to model the IP address data. The API returns a lot of data that I don't need
+// for this project, so just capture the relevant bits
 class ipAddressModel {
     ip = ``;
     location = ``;
